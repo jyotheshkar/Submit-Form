@@ -1,0 +1,82 @@
+/* CSS styles */
+.form-container {
+    max-width: 400px; /* Set maximum width of the form container */
+    margin: 4rem auto; /* Center the form container horizontally with top and bottom margin */
+    padding: 40px; /* Add padding inside the form container */
+    border-radius: 10px; /* Apply rounded corners to the form container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Apply a shadow effect to the form container */
+  }
+  
+  .heading-container {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    font-family: 'Roboto Condensed', sans-serif; /* Apply the specified font */
+  }
+  
+  .heading-container h1 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .form-field {
+    margin-bottom: 20px; /* Add bottom margin for form fields */
+  }
+  
+  .icon-label {
+    display: flex; /* Make the icon label container a flex container */
+    align-items: center; /* Align items vertically in the center */
+    margin-bottom: 8px; /* Add bottom margin for spacing */
+    color: #333; /* Dark text color */
+  }
+  
+  .icon {
+    margin-right: 8px; /* Add right margin for spacing between icon and label text */
+    color: #007bff; /* Blue color for icons */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  select {
+    width: calc(100% - 24px); /* Calculate width to account for padding and borders */
+    padding: 12px; /* Add padding for input fields */
+    border: 1px solid #ccc; /* Apply a border with light gray color */
+    border-radius: 5px; /* Apply rounded corners to input fields */
+    color: #333; /* Dark text color */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="date"]:focus,
+  select:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Apply blue border color when focused */
+  }
+  
+  .submit-button {
+    width: 120px; /* Set width for the submit button */
+    margin-top: 20px; /* Add top margin for spacing */
+    padding: 12px 20px; /* Add padding for the submit button */
+    background-color: #007bff; /* Apply blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Apply rounded corners to the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  .error {
+    color: red; /* Apply red color for error messages */
+  }
+  
+  .error-message {
+    color: red; /* Apply red color for error messages */
+    font-size: 0.8em; /* Set font size for error messages */
+    margin-top: 4px; /* Add top margin for spacing */
+    text-align: left !important; /* Align error message to the left */
+  }
+  
